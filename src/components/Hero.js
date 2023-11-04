@@ -21,7 +21,7 @@ const Hero = () => {
 
       <Fade bottom>
       <div className="flex items-center justify-center mt-5 w-[22rem] overflow-hidden" >
-        <img src={require("../images/cod.jpeg")} />
+        <img src={require("../images/cod.jpeg")} alt=" "/>
       </div>
       </Fade>
     

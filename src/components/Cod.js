@@ -19,7 +19,7 @@ const Cod = () => {
         </div>
 
         <div className='w-full mt-[1rem] flex  justify-center'>
-        <img src={require("../images/cod.png")}/>
+        <img src={require("../images/cod.png")} alt=" "/>
         </div>
     </div>
     </Fade>

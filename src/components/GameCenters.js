@@ -13,27 +13,27 @@ const GameCenters = () => {
       </p>
       <div className="flex flex-wrap justify-center xl:grid grid-cols-3 sm:space-x-6 lg:justify-between items-center">
         <img
-          src={require("../images/center1.png")}
+          src={require("../images/center1.png")} alt=" "
           className="mt-[2rem] hover:animate-pulse cursor-pointer"
         />
         <img
-          src={require("../images/center2.png")}
+          src={require("../images/center2.png")} alt=" "
           className="mt-[2rem] hover:animate-pulse cursor-pointer"
         />
         <img
-          src={require("../images/center3.png")}
+          src={require("../images/center3.png")} alt=" "
           className="mt-[2rem] hover:animate-pulse cursor-pointer"
         />
         <img
-          src={require("../images/center4.png")}
+          src={require("../images/center4.png")} alt=" "
           className="mt-[2rem] hover:animate-pulse cursor-pointer"
         />
         <img
-          src={require("../images/center5.png")}
+          src={require("../images/center5.png")} alt=" "
           className="mt-[2rem] hover:animate-pulse cursor-pointer"
         />
         <img
-          src={require("../images/center6.png")}
+          src={require("../images/center6.png")} alt=" "
           className="mt-[2rem] hover:animate-pulse cursor-pointer"
         />
       </div>
