@@ -1,9 +1,11 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col xl:flex-row xl:h-screen items-center pt-[5rem] w-full">
-      <div className="flex flex-col flex-1 h-full items-center xl:items-start justify-center text-white text-center xl:text-start space-y-8 mb-[4rem] ">
+    <div className="flex flex-col xl:flex-row xl:h-screen items-center w-full">
+      <Fade bottom>
+      <div className="flex flex-col flex-1 h-full items-center xl:items-start justify-center text-white text-center xl:text-start space-y-6 ">
         <p className="text-[#e87d0e] font-medium  ">Proved by prodesigner</p>
         <h1 className="text-[2rem] font-bold w-full xl:w-[25rem] ">
           Work that we produce for our clients
@@ -14,10 +16,14 @@ const Hero = () => {
             Get More Details
         </button>
       </div>
+      </Fade>
 
-      <div className="flex items-center justify-center h-[35rem] w-[10rem] overflow-hidden" >
+
+      <Fade bottom>
+      <div className="flex items-center justify-center mt-5 w-[22rem] overflow-hidden" >
         <img src={require("../images/cod.jpeg")} />
       </div>
+      </Fade>
     
     </div>
   );

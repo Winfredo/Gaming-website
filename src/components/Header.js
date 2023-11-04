@@ -3,7 +3,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 const Header = () => {
   return (
-    <div className='absolute w-full h-[5rem] '>
+    <div className='absolute w-full h-[5rem]'>
         <div className='hidden lg:flex items-center w-full h-full xl:max-w-[1250px] mx-auto px-4'>
             <p className='font-bold text-[1.5rem] cursor-pointer '>LOGO</p>
 
