@@ -17,9 +17,6 @@ function App() {
     <GameCenters />
   </div>
   <Footer />
-
-
-  <div className="h-[10rem]"></div>
  </main>
 
   );
